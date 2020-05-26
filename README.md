@@ -1,10 +1,12 @@
 # DiscordTokenLogin
 Discord console exploit to login with tokens!
 --------------------------------------------------
-How it works: Instead of manually going into the application system and changing the token yourself (which is now patched),
+
+
+# How it works:
+Instead of manually going into the application system and changing the token yourself (which is now patched),
 it automatically takes a inserted token and changes the document for you!
 # How to use: 
---------------------------------------------------
 Copy the test in exploit.txt, and where it says "token-here", paste your victim's token.
 Now head over to discord.com on your preferred browser (works best on Chrome or Firefox).
 With F12 or CTRL+SHIFT+I, open your browser's developer tools.
