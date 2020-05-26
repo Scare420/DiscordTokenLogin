@@ -1,0 +1,10 @@
+function exploit(auth) {
+	setInterval(() => {
+	document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${auth}"`
+	}, 50);
+}
+setTimeout(() => {
+	location.reload();
+	}, 2500); {
+	exploit("token-here");
+}
